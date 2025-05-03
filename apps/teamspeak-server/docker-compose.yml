@@ -4,9 +4,9 @@ services:
         image: teamspeak
         restart: always
         ports:
-            - 9987:8187/udp
-            - 10011:18011
-            - 30033:38033
+            - 9887:9987/udp
+            - 11011:10011
+            - 31033:30033
         environment:
             TS3SERVER_LICENSE: accept
         volumes:
