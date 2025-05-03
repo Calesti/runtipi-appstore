@@ -5,8 +5,8 @@ services:
         restart: always
         ports:
             - 8887:9987/udp
-            - 10011:10011
-            - 30033:30033
+            - 11111:10011
+            - 30333:30033
         environment:
             TS3SERVER_LICENSE: accept
         volumes:
