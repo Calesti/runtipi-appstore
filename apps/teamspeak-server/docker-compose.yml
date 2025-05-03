@@ -4,7 +4,7 @@ services:
         image: teamspeak
         restart: always
         ports:
-            - 9987:9986/udp
+            - 8887:9987/udp
             - 10011:10011
             - 30033:30033
         environment:
