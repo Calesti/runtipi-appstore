@@ -8,6 +8,7 @@ services:
             - 11111:10011
             - 30333:30033
     environment:
+      TS3SERVER_LICENSE: accept
       TS3SERVER_DB_PLUGIN: ts3db_mariadb
       TS3SERVER_DB_SQLCREATEPATH: create_mariadb
       TS3SERVER_DB_HOST: db
@@ -15,7 +16,7 @@ services:
       TS3SERVER_DB_PASSWORD: R31nh1ardt512
       TS3SERVER_DB_NAME: teamspeak
       TS3SERVER_DB_WAITUNTILREADY: 30
-      TS3SERVER_LICENSE: accept
+
   db:
     image: mariadb
     restart: always
