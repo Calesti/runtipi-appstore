@@ -1,0 +1,17 @@
+{
+  "name": "Teamspeak",
+  "id": "teamspeak-server",
+  "available": true,
+  "short_desc": "Teamspeak Server",
+  "author": "Calesti",
+  "port": 9980,
+  "categories": ["social"],
+  "description": "Teamspeak server.",
+  "tipi_version": 1,
+  "version": "v1.5.7",
+  "source": "https://github.com/Calesti/runtipi-appstore/apps/teamspeak-server",
+  "exposable": true,
+  "supported_architectures": ["arm64", "amd64"],
+  "created_at": 1724134338800,
+  "updated_at": 1724134338800
+}
